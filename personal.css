@@ -1,0 +1,25 @@
+
+#content-pane {
+	max-width: 800px;
+	margin: auto;
+	background-color: #eeeeee;
+	padding: 16px;
+}
+
+img {
+	float: right;
+	max-height: 512px;
+	padding-left: 10px;
+}
+
+#menu-bar {
+	width: 100%;
+	table-layout: fixed;
+	text-align: center;
+}
+
+#menu-bar a {
+	font-size: 20px;
+	font-weight: bold;
+	color: blue;
+}
