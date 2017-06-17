@@ -7,3 +7,5 @@ about.html: about.md
 post:
 	scp index.html ibg4@unixs.cssd.pitt.edu:public/html
 
+clean:
+	rm about.html index.html
