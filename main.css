@@ -15,6 +15,17 @@ header {
 	padding-left: 10px;
 }
 
+pre {
+	color:#444444;
+	background-color:#f8f8f8;
+	border:1px solid #cdcdcd;
+	padding:0.5em 1em;
+	border-radius:0.25em;
+}
+
+code {
+	font-family: 'Inconsolata', monospace;
+}
 
 #menu-bar {
 	width: 100%;
