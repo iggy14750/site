@@ -16,8 +16,8 @@ header {
 }
 
 pre {
-	color:#444444;
-	background-color:#f8f8f8;
+	color:#17c423;
+	background-color:black;
 	border:1px solid #cdcdcd;
 	padding:0.5em 1em;
 	border-radius:0.25em;
@@ -25,6 +25,7 @@ pre {
 
 code {
 	font-family: 'Inconsolata', monospace;
+	font-weight: bold;
 }
 
 #menu-bar {
