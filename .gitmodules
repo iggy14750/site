@@ -1,0 +1,9 @@
+[submodule "themes/Niello"]
+	path = themes/Niello
+	url = https://github.com/guangmean/Niello
+[submodule "themes/cleanwhite"]
+	path = themes/cleanwhite
+	url = https://github.com/zhaohuabing/hugo-theme-cleanwhite
+[submodule "themes/minimo"]
+	path = themes/minimo
+	url = https://github.com/MunifTanjim/minimo
