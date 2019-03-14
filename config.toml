@@ -1,0 +1,7 @@
+baseURL = "https://isaacgoss.com/"
+languageCode = "en-us"
+title = "My Site"
+theme = "minimo"
+
+[imaging]
+quality = 5
