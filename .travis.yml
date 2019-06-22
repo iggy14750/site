@@ -1,0 +1,11 @@
+branches:
+  only:
+  - travis
+  - master
+before_install:
+  - git submodule update --init --recursive
+  - sudo apt-get update
+  - sudo apt-get install hugo
+script:
+  - hugo
+  - cd public; find . -type f -exec curl --user "$SERVER_USER:$SERVER_PW" --ftp-create-dirs -T {} ${SERVER_URL}/{} 
