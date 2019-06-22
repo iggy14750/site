@@ -1,12 +1,22 @@
 ---
-title: "Isaac Goss's Site"
+title: "Isaac Goss"
 date: 2019-01-18T00:43:04-05:00
-draft: true
+draft: false
 ---
 
-![My head](static/headshot.jpg)
+## About Me
 
-Hello all! My name is Isaac; and this is my site!
-You can learn [about me](/about/) on this site.
+Hello all! I am a computer engineer (software and FPGA) at
+[Concurrent EDA](http://concurrenteda.com) in Pittsburgh,
+and a proud alumnus from Pitt's Swanson School of Engineering.
 
-Wanna see my favorite [post](/posts/starting-the-site)
+At work, I have designed, implemented, tested, and debugged:
+
+- Low-level Ethernet drivers
+- Bare-metal DMA controller software
+- FPGA logic for high-speed video
+- Embedded Linux applications
+- And many, many shell scripts
+
+
+
