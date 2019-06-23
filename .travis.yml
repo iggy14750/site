@@ -7,5 +7,5 @@ before_install:
   - sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
   - /home/linuxbrew/.linuxbrew/bin/brew install hugo
 script:
-  - hugo
+  - /home/linuxbrew/.linuxbrew/Cellar/hugo/0.55.6/bin/hugo
   - cd public; find . -type f -exec curl --user "$SERVER_USER:$SERVER_PW" --ftp-create-dirs -T {} ${SERVER_URL}/{} 
